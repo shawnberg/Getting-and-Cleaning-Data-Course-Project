@@ -1,5 +1,19 @@
 # Getting and Cleaning Data Course Project
 
+# download data files and unzip them (check first to see if this is already done)
+
+zipUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+zipFile <- "UCI HAR Dataset.zip"
+
+if (!file.exists(zipFile)) {
+  download.file(zipUrl, zipFile, mode = "wb")
+}
+
+if (!file.exists("UCI HAR Dataset")) {
+  unzip(zipFile)
+}
+
+
 # Load necessary libraries
 library("data.table")
 
