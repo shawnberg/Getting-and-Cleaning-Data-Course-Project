@@ -1,15 +1,15 @@
 # Code Book  
-This code book summarizes the resulting data fields in tidy.txt.
+This code book summarizes the resulting data fields in tidy.csv
   
 ## Identifiers
 subjectID - The ID of the test subject  
 activity - The type of activity performed when the corresponding measurements were taken, valid values include  
-1  -  WALKING   
-2  -  WALKING_UPSTAIRS  
-3  -  WALKING_DOWNSTAIRS   
-4  -  SITTING   
-5  -  STANDING   
-6  -  LAYING   
+  1  -  WALKING   
+  2  -  WALKING_UPSTAIRS  
+  3  -  WALKING_DOWNSTAIRS   
+  4  -  SITTING   
+  5  -  STANDING   
+  6  -  LAYING   
   
 ## Measurements
 tBodyAcc.mean.X  
@@ -24,7 +24,7 @@ tGravityAcc.mean.Z
 tGravityAcc.std.X  
 tGravityAcc.std.Y  
 tGravityAcc.std.Z  
-tBodyAccJerk.mean.X 
+tBodyAccJerk.mean.X  
 tBodyAccJerk.mean.Y  
 tBodyAccJerk.mean.Z  
 tBodyAccJerk.std.X  
