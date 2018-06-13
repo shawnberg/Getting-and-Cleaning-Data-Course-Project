@@ -1,5 +1,5 @@
 # Code Book  
-This code book summarizes the resulting data fields in tidy.csv
+This code book summarizes the resulting data fields in tidy.txt
   
 ## Identifiers
 subjectID - The ID of the test subject  
