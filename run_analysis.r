@@ -1,6 +1,6 @@
 # Getting and Cleaning Data Course Project
 
-# download data files and unzip them (check first to see if this is already done)
+# Download the data file and unzip it (check first to see if this is already done)
 
 zipUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 zipFile <- "UCI HAR Dataset.zip"
@@ -53,6 +53,7 @@ combinedData = subset(combinedData, select = -c(activityID) )
 
 tidyData <- aggregate(combinedData[, 2:67], list(subjectID = combinedData$subjectID, activity = combinedData$activity), mean)
 
-fwrite(x = tidyData, file = "tidyData.csv", quote = FALSE)
+write.table(tidyData, "tidydata.txt", row.names = FALSE, quote = FALSE)
+
 
 

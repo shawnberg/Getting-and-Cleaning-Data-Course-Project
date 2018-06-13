@@ -30,4 +30,4 @@ The R script, run_analysis.R, does the following:
 12. Merges the combined file and the activity labels on activityID
 13. Removes activityID from the file
 14. Creates a tidy dataset with the average of each of the measurements by Subject and Activity
-15. Writes the tidy dataset out as a .csv file for further analysis
+15. Writes the tidy dataset out as a .txt file for further analysis
