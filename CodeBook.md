@@ -1,16 +1,15 @@
-
 #Code Book
 This code book summarizes the resulting data fields in tidy.txt.
 
 ##Identifiers
 subjectID - The ID of the test subject
-activity - The type of activity performed when the corresponding measurements were taken, valid values are
-*1  -  WALKING 
-*2  -  WALKING_UPSTAIRS
-*3  -  WALKING_DOWNSTAIRS 
-*4  -  SITTING 
-*5  -  STANDING 
-*6  -  LAYING 
+activity - The type of activity performed when the corresponding measurements were taken, valid values include
+1  -  WALKING 
+2  -  WALKING_UPSTAIRS
+3  -  WALKING_DOWNSTAIRS 
+4  -  SITTING 
+5  -  STANDING 
+6  -  LAYING 
 
 ##Measurements
 tBodyAcc.mean.X
