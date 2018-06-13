@@ -78,3 +78,15 @@ fBodyBodyGyroMag.mean
 fBodyBodyGyroMag.std  
 fBodyBodyGyroJerkMag.mean  
 fBodyBodyGyroJerkMag.std  
+
+## Transformations and Processes
+
++ Data was downloaded and merged for Training and Test subjects  
++ Variables were eliminated and only the mean and standard deviations were kept  
++ Each of the measurements above were averaged by Subject and Activity  
++ ActivityID was removed in favor of Activity Description  
++ A tidy dataset was created to be used for further analysis  
+
+
+
+
